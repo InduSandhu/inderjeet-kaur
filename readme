@@ -1,0 +1,130 @@
+Algorithm for Cricket Data Analysis Dashboard
+Step-by-Step Algorithm
+Start
+Collect tournament data from different sheets:
+Match details
+Venue details
+Points table
+Batting statistics
+Bowling statistics
+Records
+Store the data in structured tables.
+Clean the data by:
+Removing blank cells
+Correcting duplicate entries
+Formatting dates and numeric values
+Analyze match data:
+Total matches played
+Winning teams
+Toss impact
+Margin of victory
+Analyze team performance:
+Matches played
+Wins
+Losses
+Net Run Rate
+Qualification status
+Analyze player performance:
+Highest runs
+Best strike rate
+Most wickets
+Best economy
+Generate summary statistics using:
+Pivot tables
+Charts
+Dashboard visuals
+Display results in dashboard
+Stop
+Data Used in the Project
+Input Data
+
+The project uses the following datasets:
+
+1. Match Data
+
+Contains:
+
+Match number
+Stage
+Group
+Date
+Venue
+Teams
+Toss winner
+Match winner
+Margin
+2. Venue Data
+
+Contains:
+
+Stadium name
+City
+Country
+Capacity
+Average score
+3. Points Table
+
+Contains:
+
+Team name
+Matches played
+Wins
+Losses
+NRR
+Points
+Qualification status
+4. Batting Statistics
+
+Contains:
+
+Player name
+Team
+Runs
+Average
+Strike rate
+Fours
+Sixes
+5. Bowling Statistics
+
+Contains:
+
+Player name
+Team
+Wickets
+Economy
+Average
+Best figures
+Processing Methods
+
+The following methods are used:
+
+Team Performance
+Points=(Wins×2)+(No Result×1)
+Batting Performance
+Batting Average=
+Times Out
+Runs
+	​
+
+Bowling Economy
+Economy=
+Overs Bowled
+Runs Conceded
+	​
+
+Output Generated
+
+The dashboard displays:
+
+Top performing teams
+Top batsmen
+Top bowlers
+Match summaries
+Venue analysis
+Tournament records
+Project Description
+
+This project analyzes cricket tournament data using Excel.
+The system collects match, team, and player statistics from multiple worksheets.
+It processes the data using formulas, pivot tables, and charts to create an interactive dashboard.
+The dashboard helps in understanding team performance, player statistics, and overall tournament trends.
